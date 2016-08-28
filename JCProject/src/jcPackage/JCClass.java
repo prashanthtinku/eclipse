@@ -15,6 +15,7 @@ public class JCClass {
 	}
 	
 	public void secondFunction(){
+		System.out.println("Second Entry");
 		System.out.println("In the second method");
 	}
 
