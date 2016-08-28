@@ -6,8 +6,8 @@ public class JCClass {
 		System.out.println("In Main changing the Message");
 		JCClass jc=new JCClass();
 		jc.JavaClass();
-		jc.secondFunction();	
-
+		jc.newOne();
+		jc.secondFunction();
 	}
 	
 	public void JavaClass(){
@@ -16,7 +16,14 @@ public class JCClass {
 	
 	public void secondFunction(){
 		System.out.println("Second Entry");
-		System.out.println("In the second method - Updating from Master");
+		System.out.println("In the second method");
+		for(int i=1;i<3;i++){
+			System.out.println("Hello "+i);
+		}
+	}
+	
+	public void newOne(){
+		System.out.println("In the New One");
 	}
 
 }
