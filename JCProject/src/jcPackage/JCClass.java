@@ -3,7 +3,7 @@ package jcPackage;
 public class JCClass {
 
 	public static void main(String[] args) {
-		System.out.println("In Main");
+		System.out.println("In Main changing the Message");
 		JCClass jc=new JCClass();
 		jc.JavaClass();
 
